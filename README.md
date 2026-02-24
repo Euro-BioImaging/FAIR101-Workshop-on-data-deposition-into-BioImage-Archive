@@ -1,4 +1,4 @@
-# FAIR Data 101 - Depositing bioimage data in the BioImage Archive
+ # FAIR Data 101 - Depositing bioimage data in the BioImage Archive
 
 
 [![CC BY 4.0][cc-by-shield]][cc-by]
@@ -106,7 +106,7 @@ Through the submission interface, a 'secret directory' will be created for each 
 >[!NOTE]
 >The secret directory is not intended for long-term storage of your data and will be deleted after 3 months.
 
-![upload_interface](figures/7_submission_file-upload.jpg)
+![upload_interface](figures/7_submission_file-upload_v2.jpg)
 
 | :pencil2:  **TASK**       |
 |:--------------------------|
@@ -133,7 +133,7 @@ Help and credentials for FTP and Aspera upload can be found at the FTP/Aspera Bu
 |:arrow_forward: **Initialize a new BioImage Archive submission** |
 
 
-![new submission](figures/8_new_submission.jpg)
+![new submission](figures/8_new_submission_v2.jpg)
 
 ![new submission - BIA entry](figures/9_new_submission_bia_entry.jpg)
 
@@ -146,11 +146,11 @@ Help and credentials for FTP and Aspera upload can be found at the FTP/Aspera Bu
 |:arrow_forward: **Fill-in the 'Study Component' section, but leave the File-List and associations empty** |
 |:arrow_forward: **Fill-in the experimental metadata (i.e. REMBI components) for this first Study Component** |
 
-![submission portal](figures/10_submission_portal.jpg)
+![submission portal](figures/10_submission_portal_v2.jpg)
 
-![REMBI subsections](figures/13_submission_subsections.jpg)
+![REMBI subsections](figures/13_submission_subsections_v2.jpg)
 
-![Study_components](figures/16_submission_study_component_associations.jpg)
+![Study_components](figures/14_submission_subsections_REMBI.jpg)
 
 
 > [!TIP]
@@ -173,7 +173,7 @@ To add components click on “add” in the top left corner and select the secti
 |:arrow_forward: **Fill-in the experimental metadata for the REMBI modules of the second Study Component** |
 
 
-![duplicate components](figures/duplicate_components.jpg)
+![duplicate components](figures/duplicate_components_v2.jpg)
 
 
 ### 4.3 Associate Study Components
@@ -186,7 +186,7 @@ Now we need to associate which of the REMBI modules belongs to which Study Compo
 
 Again, leave the ‚File-List‘ empty for now. We will be generating the File-Lists in the next step.
 
-![study_component_associations](figures/17_submission_study_component_association.jpg)
+![study_component_associations](figures/17_submission_study_component_association_v2.jpg)
 
 ## 5: Generate the File-List
 
@@ -227,7 +227,7 @@ When all data is uploaded, the File-list template(s) can be automatically genera
 |:--------------------------|
 |:arrow_forward: **Download the File-List templates for each Study Component** |
 
-![download-file-list](figures/18_submission_download_file_list.jpg)
+![download-file-list](figures/18_submission_download_file_list_v2.jpg)
 
 
 ### 5.2 Populate the File-List
@@ -249,7 +249,7 @@ Once you have downloaded the empty File-lists, you need to locally edit the File
 |:arrow_forward: **Upload the File-Lists over 'File Upload'** |
 |:arrow_forward: **Associate each File-List to the corresponding Study Component** |
 
-![associate-file-list](figures/file-list-associations.jpg)
+![associate-file-list](figures/file-list-associations_v2.jpg)
 
 ## 6: Sumbit
 
@@ -282,6 +282,8 @@ After the dataset is public each author can claim the dataset to their ORCID:
 ## Annotations
 
 Annotations (i.e. segmentation masks, labels, bounding boxes) can be deposited in BioImage Archive according to MIFA: Metadata, Incentives, Formats, and Accessibility guidelines which were designed to improve the reuse of AI datasets for bioimage analysis.
+
+![ORCID-claiming](figures/annotations.jpg)
 
 :globe_with_meridians: [MIFA-paper](https://doi.org/10.48550/arXiv.2311.10443)
 
